@@ -1,15 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .light {
-    --mainColor: #2bd98d;
-    --hoverColor: #0a5f48;
-    --backgroundColor: #f1f8fc;
+    --mainColor: #64bcf4;
+    --hoverColor: #5bacdf;
+    --darkTwo: black;
 
-    --lightTwo: #aaa;
 }
 
-
-
+.dark {
+    --mainColor: #64bcf4;
+    --hoverColor: #5bacdf;
+    --backgroundColor: #f1f8fc;
+    --darkOne: #312f3a;
+    --darkTwo: #45424b;
+    --lightOne: #919191;
+    --lightTwo: #aaa;
+}
 *,
 *::before,
 *::after {
@@ -211,42 +217,16 @@ header .container {
 }
 
 .toggle-btn {
-    display: inline-block;
-    border: none;
-    background: var(--darkTwo);
-    color: var(--backgroundColor);
+
+
+
+    color: white;
     outline: none;
-    cursor: pointer;
-    height: 39px;
-    width: 39px;
-    border-radius: 50%;
-    font-size: 1.1rem;
-    transition: 0.3s;
+    border:0px ;
+
+
 }
 
-.toggle-btn i {
-    line-height: 39px;
-}
-
-.toggle-btn:hover {
-    background: var(--mainColor);
-}
-
-.big-wrapper.light .toggle-btn i:last-child {
-    display: none;
-}
-
-.big-wrapper.light .toggle-btn i:first-child {
-    display: block;
-}
-
-.big-wrapper.dark .toggle-btn i:last-child {
-    display: block;
-}
-
-.big-wrapper.dark .toggle-btn i:first-child {
-    display: none;
-}
 
 .shape {
     position: absolute;
