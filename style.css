@@ -4,21 +4,11 @@
     --mainColor: #2bd98d;
     --hoverColor: #0a5f48;
     --backgroundColor: #f1f8fc;
-    --darkOne: #312f3a;
-    --darkTwo: #45424b;
-    --lightOne: #919191;
+
     --lightTwo: #aaa;
 }
 
-.dark {
-    --mainColor: #26e38b;
-    --hoverColor: #1ecab6;
-    --backgroundColor: #192e3a;
-    --darkOne: #f3f3f3;
-    --darkTwo: #fff;
-    --lightOne: #ccc;
-    --lightTwo: #e7e3e3;
-}
+
 
 *,
 *::before,
